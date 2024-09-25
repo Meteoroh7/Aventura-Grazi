@@ -1,0 +1,24 @@
+body{
+color:black;
+background:#ff9696;
+font-family: "Playpen Sans", system-ui;
+font-size:25px;
+display: flex;
+justify-content:center;
+align-items: center;
+}
+
+
+button {
+    color:black;
+    background:#c93e3e;
+    font-family: "Playpen Sans", system-ui;
+    font-size:20px;
+}
+
+.passo{
+    display:none;
+}
+.passo.ativo{
+    display:block;
+}

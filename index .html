@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+    
+<link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventura Grazi</title>
+</head>
+
+<body>
+    <main>
+        <section>
+
+            <div class="passo ativo" id="passo-0">
+                <img src="img/casa abandonada.jfif" alt="">
+                <p>Alexa é detetive recebeu um chamado para investigar uma mansão antiga na cidade de Valoria. O dono da mansão, um recluso milionário, desapareceu misteriosamente. Ao chegar, você vê duas portas: uma vermelha e outra azul. Qual você deseja explorar?<p>
+                    <button class="btn-proximo" data-proximo="1">Porta Azul</button>
+                    <button class="btn-proximo" data-proximo="2">Porta Vermelha</button>
+     </div>
+
+            <div class="passo" id="passo-1">
+                <p>Ao abrir a porta azul existe um escritório empoeirado. Há uma mesa com uma pilha de papéis desordenados, uma estante cheia de livros antigos e um quadro na parede mostrando um retrato do milionário. Em cima da mesa, você encontra um diário parcialmente aberto. Deseja examinar o diário ou o quadro?<p>
+                    <button class="btn-proximo" data-proximo="3">Diário</button>
+                    <button class="btn-proximo" data-proximo="4">Quadro</button>
+    </div>
+
+                <div class= "passo" id="passo-2">
+                    <p>Ao abrir a porta vermelha ela se depara com uma biblioteca escura e silenciosa. As estantes estão repletas de livros raros e antigos. No centro da sala, há uma mesa com uma única caixa trancada. Ao lado, uma janela está entreaberta. O que você deseja investigar: a caixa trancada ou os livros?</p>
+                   <button class="btn-proximo" data-proximo="5">Livros</button>
+                   <button class="btn-proximo" data-proximo="6">Caixa Trancada</button>
+     </div>
+
+                <div class="passo" id="passo-3">
+                    <p>Ela examina o diário e encontra anotações que mencionam um "segredo enterrado" e uma "chave perdida". Há também um recorte de jornal sobre um incêndio na mansão há muitos anos. O diário está aberto na página que fala sobre um esconderijo secreto na mansão. Alexa decide explorar pelo quintal da casa.</p>
+                 <button class="btn-proximo" data-proximo="7"> Explorar mais a parte do quintal</button>
+     </div>
+
+               <div class="passo" id="passo-4">
+                <img src="img/caixa explosiva.jpg" alt="">
+                  <p>Alexa se aproxima do quadro e percebe que ele é um retrato do milionário, mas algo parece estranho. Ao examinar mais de perto, você nota uma pequena alavanca escondida e a puxa atrás da moldura do retrato e um compartimento secreto se abre na parede, revelando uma caixa antiga e empoeirada. Com cuidado, você a retira e a coloca sobre a mesa. A caixa está trancada, mas ao derrubar no chão a caixa se abre e explode e nunca mais se ouviu falar de Alexa.</p>
+     </div>
+
+               <div class="passo" id="passo-5">
+                 <p>Ao explorar os livros na estante da biblioteca. Enquanto examina as lombadas, você percebe que muitos deles são de temas variados, mas alguns parecem ser sobre história local e ocultismo.
+                    Entre os livros, você encontra um volumoso tomo encadernado em couro, com o título "Os Segredos de Valoria". Folheando as páginas, você descobre que o livro contém uma seção sobre a mansão, mencionando uma "câmara subterrânea" e uma "chave antiga que abre um baú secreto".
+                    Algumas páginas estão marcadas com anotações manuscritas que podem estar relacionadas ao desaparecimento do milionário.</p>
+              <button class="btn-proximo" data-proximo="7">Deseja investigar por outro lugar</button>
+    </div>
+
+              <div class="passo" id="passo-6">
+              <p>Com a caixa em mãos, ela examina a fechadura com mais atenção. Ela é bastante elaborada e pode exigir uma chave antiga, possivelmente a mesma mencionada no diário.
+                Enquanto tenta pensar em como abrir a caixa, você lembra das anotações que encontrou no diário sobre a "chave perdida". Você considera a possibilidade de a chave estar escondida em algum lugar na mansão ou, talvez, até mesmo dentro da própria biblioteca.</p>
+            <button class="btn-proximo" data-proximo="8">Ainda pela biblioteca</button>
+    </div>
+
+             <div class="passo" id="passo-7">
+             <p>Ao sair da mansão, é encontrado  um jardim bem cuidado, mas também percebe algumas áreas que parecem mais negligenciadas e cheias de entulho. Há um velho galpão no fundo do quintal e uma área de terra que parece recentemente mexida.</p>
+             <button class="btn-proximo" data-proximo="9">Seguir pelo velho galpão</button>
+             <button class="btn-proximo" data-proximo="10">Seguir pela áreia de terra</button>
+    </div>
+
+            <div class="passo" id="passo-8">
+             <p>Alexa finalmente encontra o mapa antigo da casa. Agora, para o quintal!</p>
+             <button class="btn-proximo" data-proximo="7">Ir para o quintal</button>
+    </div>
+
+           <div class="passo" id="passo-9">
+            <p>Você se dirige ao galpão no fundo do quintal. Ao abrir a porta, você encontra um espaço cheio de ferramentas antigas, caixas de madeira e alguns móveis cobertos de poeira. Nada muito questionável. Então, ela volta pro quintal.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o cantinho do quintal</button>
+    </div>
+
+           <div class="passo" id="passo-10">
+            <p>A área de terra recentemente mexida e começa a cavar com suas mãos e uma pequena pá que encontrou no galpão. Depois de algum tempo, você encontra um pequeno baú enterrado. O baú está enferrujado, mas parece estar intacto. Então, volta ao quintal.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar para o quintal</button>
+    </div>
+
+           <div class="passo" id="passo-11">
+            <img src="img/pessoa enterrada.jpg" alt="">
+            <p>Os insetos, chegaram num canto, repleto de sujeira e um odor imenso, com uma pá no chão. Alexa pega-a e começa a cavar o espaço, quando finalmente, encontra o tal milionário morto e e decompondo na terra. Ela o julga e afirma um suicídio por estar sem hematomas e cortes corporais que facilmente provam que os fez sozinho, o mistério é quem foi que enterrou-o.</p>
+    </div>
+
+           <div class="passo" id="passo-12">
+            <P>Ao tentar sair da terra percebe-se insetos, caminhando em uma mesma direção, apontando para o canto atrás do quintal, e Alexa decide segui-los.</P>
+            <button class="btn-proximo" data-proximo="11">Explorar o cantinho do quintal</button>
+    </div>
+
+                </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
